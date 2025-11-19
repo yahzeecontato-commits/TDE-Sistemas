@@ -1,7 +1,7 @@
 📝 Gerenciador de Tarefas via Prompt
 📌 Objetivo
 
-Desenvolver um sistema simples e funcional de gerenciamento de tarefas que opere totalmente via prompt (linha de comando).
+Desenvolver um sistema simples e funcional de gerenciamento de tarefas que opere totalmente via prompt.
 O sistema permite ao usuário adicionar, visualizar, editar e remover atividades de maneira prática, rápida e intuitiva.
 
 ✔️ Requisitos Funcionais
