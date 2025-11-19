@@ -32,3 +32,9 @@ Exclui uma tarefa da lista permanentemente.
 🔹 6. Sair do sistema
 
 Encerra o programa de forma segura.
+
+
+📥 Como clonar
+
+Depois de copiar a URL, basta usar no terminal:
+git clone https://github.com/yahzeecontato-commits/TDE-Sistemas.git
