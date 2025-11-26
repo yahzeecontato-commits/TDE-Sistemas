@@ -1,4 +1,4 @@
-Dic= {}
+from dic import Dic
 proximo_id = 1 
 
 def adicionar_tarefa(): 

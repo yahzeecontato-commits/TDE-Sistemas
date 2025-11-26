@@ -1,3 +1,4 @@
+from dic import Dic
 
 def marcar_concluida() :
     tarefa = input("Coloque a tarefa que deseja marcar como concluida")
