@@ -1,15 +1,18 @@
 from dic import Dic
+import Listar_Tarefas
 
-def marcar_concluida() :
-    tarefa = input("Coloque a tarefa que deseja marcar como concluida")
-    if tarefa not in Dic :
-        print("A tarefa não foi concluida ou não exite")
+def marcar_concluida():
+    if len(Dic) == 0:
+        print("Nenhuma tarefa encontrada.")
         return
-    
-    listar_tarefas () 
-    nome = input("Digite o nome da tarefa que deseja marcar como concluída: ")
-    if nome  in Dados:
-        concluida = f"{nome} - Concluída"
-        posicao = Dados.index(nome)
-        Dados[posicao] = concluida
-        print("Tarefa marcada como concluída!")
+    Listar_Tarefas.ler_tarefas()
+
+    nome=input("Digite o id da tarefa que deseja marcar como concluida: ")
+
+    for id, tarefa in Dic.items():
+        if id in Dic:
+            tarefa["status"] ="concluída"
+            print(f"Tarefa '{nome}' marcada como concluída ")
+            return
+
+    print("Tarefa não encontrada..")

@@ -1,6 +1,15 @@
-tarefas={}
+from dic import Dic
+
+tarefas = Dic 
+
 proximo_id = 1
-def editar_tarefa():   
+def editar_tarefa():  
+    for id, tarefa in Dic.items():
+            print(f"ID: {id}")
+            print(f" Nome:   {tarefa['nome']}")
+            print(f" Status: {tarefa['status']}")
+            print(f" Prazo:  {tarefa['prazo']}")
+            print("-" * 30) 
 
     try:
         id_tarefa = int(input("\nDigite o ID da tarefa que deseja editar: "))
