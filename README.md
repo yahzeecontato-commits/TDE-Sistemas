@@ -1,4 +1,11 @@
 📝 Gerenciador de Tarefas via Prompt
+
+O projeto foi dividido entre cinco integrantes. Cada membro ficou responsável por uma funcionalidade específica, organizada em arquivos separados para facilitar o desenvolvimento individual. Além disso, há uma pasta principal dedicada à execução do sistema, onde todas as partes foram integradas.
+
+Foram realizadas pequenas alterações em alguns trechos de código. Essas modificações tiveram como finalidade apenas padronizar nomes de variáveis, funções e estruturas, garantindo que todos os módulos funcionassem de forma coerente entre si. Nenhuma funcionalidade original foi removida ou alterada de maneira significativa; Unificado o conjunto para permitir a execução correta em conjunto.
+
+Este repositório representa o resultado do trabalho colaborativo da equipe, combinando diferentes abordagens individuais em um sistema funcional e organizado.
+
 📌 Objetivo
 
 Desenvolver um sistema simples e funcional de gerenciamento de tarefas que opere totalmente via prompt.
@@ -32,7 +39,6 @@ Exclui uma tarefa da lista permanentemente.
 🔹 6. Sair do sistema
 
 Encerra o programa de forma segura.
-
 
 📥 Como clonar
 
