@@ -1,5 +1,6 @@
 from dic import Dic
 tarefas = Dic
+#joão pedro
 
 def ler_tarefas():
     if len(tarefas) == 0:
